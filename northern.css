@@ -1,17 +1,9 @@
 .northern{
-    /* background-color: blue; */
-    /* padding: 1%; */
     margin: auto;
     max-width: 66%;
-    /* min-width: 33%; */
-
-    /* margin-bottom: 10px; */
     min-height: auto;
     display: flex;
     align-items: center;
-    /* flex: auto; */
-    /* display: grid; */
-    /* grid-template-columns: 1fr 1fr; */
 }
 
 .northern>img{
@@ -19,32 +11,21 @@
     border-color: black;
     display: block;
     margin: 5px;
-    /* margin-left: 0%; */
-    /* margin-right: 33%; */
     width: 400px;
     height: 300px;
 }
 
-/* .left{float: inline-start;}
-.right{float:inline-end;
-} */
 
 subject.one{
     font-size: x-large;
     border-style: solid;
-    /* display: flex; */
-    /* vertical-align: middle; */
     text-align: center;
-    /* justify-content: center; */
     align-items: center;
-    /* block-size: auto; */
     min-width: 400px;
     min-height: 300px;
     max-width: 500px;
     max-height: 300px;
-    /* float: left; */
     margin: 5px;
-    /* padding: 5px; */
     background-color: #efefef;}
     
 .info{
