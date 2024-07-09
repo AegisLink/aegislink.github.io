@@ -1,0 +1,56 @@
+div.activity{
+    background-color: beige;
+    border-style: solid;
+    border-color: black;
+    font-size: larger;
+}
+figcaption{
+    font-style: italic;
+    }
+
+div
+    .activity-body {
+        padding-left: 8%;
+        padding-right: 8%;
+        min-height: 280px;
+    }
+    
+figure.activity-body__leftimage {
+        float: left;
+        }
+    
+figure.activity-body__rightimage {
+        float: right;
+    }
+
+img.imgborder{
+        border-style: solid;
+        border-color: blueviolet
+        ;
+    }
+p.left{
+    padding-top: 3%;
+}
+
+p.right{
+    padding-right: 33%;
+    padding-top: 3%;
+}
+
+
+table{
+    border: 3px solid;
+
+}
+th{
+background-color: bisque;
+}
+
+td.highlight{
+    background-color: goldenrod;
+}
+
+ footer
+    img{
+        width: 50px;
+        }
