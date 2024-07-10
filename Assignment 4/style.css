@@ -1,4 +1,4 @@
-body{
+main{
     display: flex;
     height: 100%;
 }
@@ -170,9 +170,9 @@ div>img{
 }
 
 
-button{
+button.expand{
     border: rgb(from 128 128 128 .5);
-    transition-duration: 1s;
+    transition-duration: .5s;
     background-color: white;
     border-radius: 8px;
     min-height: 40px;
@@ -180,9 +180,11 @@ button{
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 10%;
+    font-size: calc(.5vw + .75vh);
+
 }
 
-button:hover{
+button.expand:hover{
     /* background-color: gray; */
     margin-left: 10%;
     margin-right: 10%;
