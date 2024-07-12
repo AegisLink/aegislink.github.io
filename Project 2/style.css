@@ -183,6 +183,7 @@ nav{
     div{width: 25%;}
     padding-top: 2%;
     padding-bottom: 4%;
+    font-size: calc(.5vw + .75vh);
 }
 
 hr.hrfoot{
@@ -209,4 +210,6 @@ hr.hrfoot{
 .copyright{
     padding-top: 10%;
     text-align: center;
+    font-size: calc(.5vw + .75vh);
+
 }
