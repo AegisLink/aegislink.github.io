@@ -4,7 +4,10 @@ let currentScore=10;
 let historyHighScore=0;
 
 
+
 let randomNum=Math.trunc(Math.random()*100)+1;
+
+
 console.log(randomNum);
 
 let checkbtn=document.querySelector('.checkbtn');
@@ -17,9 +20,12 @@ let highScore2=document.querySelector('.hscore2')
 let msgerror=document.querySelector('.wrong')
 let playagain=document.querySelector('.playagain')
 
-checkbtn.addEventListener('click',function(){
+const randNum = () => {
+    randomNum = Math.trunc(Math.random()*100)+1;}
 
-    
+
+checkbtn.addEventListener('click',function(){
+        
 
 if(currentScore>0){
     if(Number(userInput.value)==randomNum){
@@ -80,7 +86,7 @@ checkbtn.addEventListener('click',function(){
 )
    
 
-var addButton = document.getElementById('playagain');
+// var addButton = document.getElementById('playagain');
 
 playagain.addEventListener('click', addToDoItem)
 
@@ -91,9 +97,8 @@ function addToDoItem() {
     document.getElementById("guessw").classList.add('mdlshow');
     // document.getElementById("toprow").classList.remove('mdlhide');    
     // document.getElementById("toprow").classList.add('mdlshow');
-    let randomNum=Math.trunc(Math.random()*100)+1;
+    randNum();
     console.log(randomNum);
-    randomNum
 }
 
 
@@ -104,6 +109,3 @@ reset.addEventListener('click', addToDoItem2)
 function addToDoItem2() {
     location.reload();
 }
-
-randomNum
-console.log(randomNum);
