@@ -1,0 +1,199 @@
+body{
+    background-color:gray;
+    width: 70%;
+    height: 100%;
+    max-width: 800px;
+    margin: auto;
+    /* transform: scale(1.1); */
+    /* transform-origin: 0 0; */
+    /* transform: scale(1) */
+    /* aspect-ratio: 1 /1; */
+
+}
+
+.header{
+    h1{text-align: center;}
+    h3{text-align: center;}
+}
+
+
+main{
+    border-style: dashed;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+
+@media screen and (max-width: 625px) {
+    .guessing{height: 300px;}
+    .main{height: 800px;}
+    .container{height: 600px;}
+    .score{min-width: 100px;}
+    .valign{position: absolute; top: 10%;}
+}
+
+main>.container{
+    border-style: solid ;
+    border-color: black;
+    width: 100%;
+    /* height: 60vh; */
+    max-height: 800px;
+    aspect-ratio: 1 /1;
+
+    /* max-height: 50dvh; */
+    /* min-height: 200px; */
+    /* height: 700px; */
+}
+
+img{
+    width: 30%;
+    aspect-ratio: 1 /1;
+    padding-bottom: 5%;
+}
+
+.score{
+    aspect-ratio: 1.2 /.6;
+    text-align: center;
+    float: left;
+    /* border-style: solid; */
+    border-radius: 5px;
+    background-color: violet;
+    width: 100px;
+    height: 40px;
+    margin: 3%;
+    padding: 1%;
+}
+
+.resetbtn{
+    margin: 5%;
+    aspect-ratio: 1 /1;
+    float: right;
+}
+
+.guessing{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-style: solid;
+    width: 70%;
+    /* position: relative; */
+    /* margin: auto; */
+    /* height: 40vh; */
+    /* max-height: 400px; */
+    /* margin-top: 20%; */
+    /* margin-bottom: 20%; */
+    aspect-ratio: 1.2 /1;
+}
+
+.number{
+    border-radius: ;
+}
+
+
+
+
+
+.guesswindow{
+    position: fixed;
+    opacity: 1;
+    padding-top: 15%;
+    /* border-style: dashed;
+    /* position: absolute; */
+    /* top: 15%; */
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    font-size: 18px; */
+
+
+}
+.checkbtn{
+    background-color: violet;
+    border: ;
+    border-radius: 5px;
+    width: 90px;
+    height: 40px;
+    font-size: 18px;}
+
+    .checkbtn:hover{
+    background-color: cornflowerblue;
+    transition: 1s;
+}
+
+.correctwindow{
+    position: fixed;
+    opacity: 0;
+    padding-top: 5%;
+    /* border-style: dashed;
+    /* position: absolute; */
+    /* top: 15%; */
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    font-size: 18px; */
+
+    button{
+        background-color: violet;
+        border: none;
+        border-radius: 5px;
+        width: 90px;
+        height: 40px;
+        font-size: 18px;}
+
+    button:hover{
+        background-color: cornflowerblue;
+        transition: 1s;
+    }
+}
+
+div.guessh{
+    /* align-items: center; */
+    /* margin-top: 90%; */
+    background-color: yellow;
+    /* position: absolute; */
+    /* bottom: 5%; */
+    /* left: 25%; */
+    width: 60%;
+    margin: auto;
+    height: 70%;
+    border-radius: 25px;
+    padding-left: 3%;
+    overflow: scroll;
+
+    /* min-width: 100px; */
+}
+
+
+.top{
+    height: 18%;
+    background-color: green;}
+
+.middle{
+    height:64%;
+    background-color: blueviolet;
+}
+
+.bottom{
+    height: 18%;
+    background-color: pink;
+}
+
+
+.resetbtn>button{
+    background-color: violet;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    font-size: 24px;
+}
+
+.resetbtn>button:hover{
+    background-color: brown;
+    transition: 1s;
+}
+
+
