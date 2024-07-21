@@ -1,0 +1,17 @@
+/* Show Win Window */
+
+.mdlshow{
+    opacity: 1;
+    pointer-events: all;
+    position: relative;
+}
+
+
+/* Go back to guessing window */
+
+.mdlhide{
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+}
+
