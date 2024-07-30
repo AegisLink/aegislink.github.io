@@ -29,8 +29,12 @@ console.log(bmihigher)
 
 // B. and D.
 
-let C = "100"
-let F = "55"
+// let C = "100"
+// let F = "55"
+
+let C = prompt('Enter temperature in Celsius', '')
+let F = prompt('Enter temperature in Fahrenheit', '')
+
 
 let ConvertToF = 9/5 * C + 32
 let ConvertToC = 5/9 * (F-32)
@@ -46,5 +50,7 @@ console.log("The temperature in Fahrenheit is " + Number(ConvertToF.toFixed(1) )
 const ConvertCelsiusToFahrenheit = (C) => C + "°C is " + (9/5 * C +32) + "°F"
 
 const ConvertFarenheitToCelsius = (F) => F + "°F is " + (5/9 * (F-32)) + "°C"
+
+
 
 
